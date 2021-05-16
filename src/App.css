@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+.app__header {
+  display:flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  padding: 0;
+  margin:10px;
+  background: linear-gradient(to right, #304352, #a7aaaf);
+
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+
+}
+
+@media (max-width: 990px) {
+  .app{
+    flex-direction: column;
+  }
+}
+
+.app__left{
+  flex: 0.9;
+}
+
+.app__graphTitle{
+
+  text-align: center;
+}
